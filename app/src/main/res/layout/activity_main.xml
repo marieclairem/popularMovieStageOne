@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="apps.marieclaire.com.popularmoviestageone.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/movies_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layoutManager="android.support.v7.widget.GridLayoutManager"
+        tools:spanCount="2"
+        tools:listitem="@layout/movie_item"/>
+
+    <TextView
+        android:id="@+id/error_message_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_padding"
+        android:text="@string/error_message"
+        android:textSize="@dimen/large_text_size"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/loading_view"
+        android:layout_height="42dp"
+        android:layout_width="42dp"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</LinearLayout>

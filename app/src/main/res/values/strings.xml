@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="tmdb_api_key">795f29083fa10d3a5c5bee0f163ecd56</string>
+    <string name="detail_error_message">Oops, bad movie data!</string>
+    <string name="movie_poster_content">movie_poster</string>
+    <string name="action_settings_key">settings</string>
+    <string name="settings_label">Settings</string>
+    <string name="action_about_key">About</string>
+    <string name="about_label">About</string>
+    <string name="about_the_movie_db">About The Movie DB</string>
+
+    <!--preferences-->
+    <string name="pref_order_by_key" translatable="false">order_by</string>
+    <string name="pref_order_by_rating">Sort Order</string>
+
+    <string name="pref_order_by_popular_label">Most Popular</string>
+    <string name="pref_order_by_highest_rated_label">Highest Rated</string>
+
+    <string name="pref_order_by_popular_value" translatable="false">popular</string>
+    <string name="pref_order_by_highest_rated_value" translatable="false">top_rated</string>
+
+    <string name="movie_poster_image_description">Movie Poster</string>
+    <string name="rating_in_10">%s/10</string>
+    <string name="error_message">Oops something went wrong, check your internet and try again.</string>
+
+</resources>
